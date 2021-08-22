@@ -7,6 +7,7 @@ import { Quote } from '../quote';
   styleUrls: ['./quote.component.css']
 })
 export class QuoteComponent implements OnInit {
+  
   quotes:Quote[] = [
     new Quote(1,"Obama",'Watch finding Nemo','Barrack'),
     new Quote(1,"Elechi",'Watch finding Nemo','Amadi'),
@@ -18,6 +19,12 @@ export class QuoteComponent implements OnInit {
   toggleDetails(index: number){
     this.quotes[index].showAuthorName= !this.quotes[index].showAuthorName;
   }
+
+  // completeQuote(isComplete: any, index: number){
+  //   if (isComplete) {
+  //     this.quotes.splice(index,1);
+  //   }
+  // }
 
   constructor() { }
 
