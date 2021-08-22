@@ -9,10 +9,10 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
   
   quotes:Quote[] = [
-    new Quote(1,"Obama",'Watch finding Nemo','Barrack'),
-    new Quote(1,"Elechi",'Watch finding Nemo','Amadi'),
-    new Quote(1,"Chinua",'Watch finding Nemo','Achebe'),
-    new Quote(1,"Ngugi",'Watch finding Nemo','Wathiongo'),
+    new Quote(1,"Obama",'Watch finding Nemo','Barrack', new Date(2020,3,14)),
+    new Quote(1,"Elechi",'Watch finding Nemo','Amadi', new Date(2020,3,14)),
+    new Quote(1,"Chinua",'Watch finding Nemo','Achebe', new Date(2020,3,14)),
+    new Quote(1,"Ngugi",'Watch finding Nemo','Wathiongo', new Date(2020,3,14)),
    
   ];
 
