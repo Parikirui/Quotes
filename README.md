@@ -1,14 +1,17 @@
-# Quotes
+# Project Name
+Quotes
+# Date and Development Team
+23rd August 2021
+The System was developed by Isaac Kirui
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+## Description
 
-## Development server
+The application is created using angular version 11. The web application has the capability of showing the name of an author his quote, as well the date the particular quote was created. A user can also add or delete a quote.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Settup and Installation process
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Make sure you have node,npm, tsc and watchman installed in your computer or desktop.
+A user can also clone this prohject from the link github link: Parikirui
 
 ## Build
 
