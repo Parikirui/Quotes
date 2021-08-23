@@ -17,9 +17,10 @@ A user can also clone this prohject from the link github link: Parikirui
 
 For the time being, the application does not have a form to add new quotes as well as performing the upvote and downvote activities
 
-## Running unit tests
+## Support and Contact Details
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Phone number: 0708541280
+Email: isaac.kirui@student.moringaschool.com
 
 ## Running end-to-end tests
 
