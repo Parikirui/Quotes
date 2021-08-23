@@ -22,9 +22,11 @@ For the time being, the application does not have a form to add new quotes as we
 Phone number: 0708541280
 Email: isaac.kirui@student.moringaschool.com
 
-## Running end-to-end tests
+## Technologies Used
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Angular
+HTML
+CSS
 
 ## Further help
 
