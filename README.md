@@ -13,9 +13,9 @@ The application is created using angular version 11. The web application has the
 Make sure you have node,npm, tsc and watchman installed in your computer or desktop.
 A user can also clone this prohject from the link github link: Parikirui
 
-## Build
+## Known bugs
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+For the time being, the application does not have a form to add new quotes as well as performing the upvote and downvote activities
 
 ## Running unit tests
 
