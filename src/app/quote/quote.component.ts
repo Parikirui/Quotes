@@ -28,6 +28,12 @@ export class QuoteComponent implements OnInit {
       }
     }
   }
+  addNewQuote (quote: Quote){
+    let quoteLength = this.quotes.length;
+    quote.id = quoteLength+1;
+    quote.submitDate = new Date(quote.submitDate)
+    this.quotes.push(quote)
+  }
 
   // completeQuote(isComplete: any, index: number){
   //   if (isComplete) {
