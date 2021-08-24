@@ -1,13 +1,14 @@
 <div class="container-fluid">
     <h2 class="text-center">Create a new Quote</h2>
     <hr>
-    <form>
-        <div class="form-group">
+
+        
+  <form #goalForm='ngForm'>
   
-            <label for="id">id</label>
-            <input type="text" required class="form-control" id="id">
+            <!-- <label for="id">id</label>
+            <input type="text" required class="form-control" id="id"> -->
   
-        </div>
+        <!-- </div> -->
         <div class="form-group">
   
             <label for="name">id</label>
@@ -30,6 +31,9 @@
             <label for="complete">Completion</label>
             <input type='date' id="complete" required>
   
+        </div>
+        <div class="text-center">  
+            <button type="submit" class="btn btn-primary">submit</button>
         </div>
     </form>
   </div>
